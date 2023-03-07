@@ -11,7 +11,14 @@ function updateEmployeeWithKeyAndValue(obj, key, value) {
     // and the new key value pair
     // it does not modify the original employee, but rather
     // returns a clone with the new data
-    return {...obj, [key]: value };
+    return {...obj, [key]: value }; // spread
+}
+
+function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {
+    // updates `employee` with the given `key` and `value` (it is destructive)
+    // and returns the entire updated employee
+    obj[key] = value; // bracket 
+    return obj;
 }
 
 
