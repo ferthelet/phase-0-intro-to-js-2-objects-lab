@@ -29,3 +29,8 @@ function deleteFromEmployeeByKey(employee, key) {
     return newEmployee;
 }
 
+function destructivelyDeleteFromEmployeeByKey(employee, key) {
+    // returns employee without the deleted key/value pair'
+    delete employee[key];
+    return employee;
+}
