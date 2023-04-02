@@ -7,8 +7,7 @@
 
 ## Introduction
 
-We covered the concepts of `Object`s in JavaScript. Now it's time to put the
-concepts into practice.
+We covered the concepts of `Object`s in JavaScript. Now it's time to put the concepts into practice.
 
 If you haven't already, **fork and clone** this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
